@@ -1,0 +1,100 @@
+@import url(https://db.onlinewebfonts.com/c/0f3cd523a982dca5926a36b46143c1cc?family=CCDeadlineDreaded);
+
+body {
+    
+    background-image: url("./Images/Background.png"); 
+    background-size: cover; /* Adjust the size to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the background fixed as the content scrolls */
+     background-position: center center; /* Center the background image */
+        
+    
+    
+    font-family: 'CCDeadlineDreaded';
+    background-color: #1E1E1E;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-image: url("./Images/Background.png"); /* Set background image for the navbar */
+    background-size: cover; /* Adjust the size to cover the navbar */
+    background-repeat: no-repeat; /* Prevent the image from repeating in the navbar */
+    background-position-x: center; 
+    background-position-y: top; 
+    background-color: rgba(0, 0, 0, 1.2); /* Adjust the opacity value (0.6 in this example) */
+
+}
+
+.logo_img {
+    height: 100px;
+    max-height: 125px;
+    min-height: 40px;
+    margin-left: 1rem;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.navItem {
+    margin-left: 20px;
+}
+
+.navItem a {
+    color: white; /* Set text color to white */
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: white; 
+    padding: 10px 20px;
+    border: 2px solid white; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #1E1E1E; /* Change text color on hover */
+}
+
+/* Add styles for the TechSprint Innovations text */
+.mainLogo {
+    display: flex;
+    align-items: center;
+    text-shadow: 0px -10px 3px rgba(5, 5, 5, 0.5);
+    
+}
+
+.mainLogo_text {
+    font-family: 'CCDeadlineDreaded';
+    text-align: center;
+    color: white;
+    margin-left: 300px; /* Add margin para malipat sa right */
+    transition: color 0.3s ease;
+}
+
+.mainLogo_text:hover {
+    color: #f3c736; 
+}
+
+.logo_top {
+    font-size: 100px; 
+}
+
+.logo_bottom {
+    font-size: 100px; 
+}
